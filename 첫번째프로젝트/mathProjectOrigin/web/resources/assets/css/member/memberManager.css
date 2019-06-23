@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+p.log-in {
+	font-size: 1rem;
+	color: #6e6e6e;
+}
+
+tr {
+	text-align: center;
+}
+
+.table-primary td {
+	color: #88362F;
+}
+
+tr > th {
+	color: #88362F;
+	font-weight: normal;
+}
+
+tr > th:hover {
+	color: #4B1E1B;
+}
+
+.btn {
+	padding: 7px !important;
+}
+
+.table > tbody > tr > th:nth-child(1) {
+	overflow: hidden;
+	word-break: break-all;
+}
+
+@media (max-width: 767px) {
+	.table > tbody > tr > th:nth-child(2),
+	.table > tbody > tr > th:nth-child(3),
+	.table-primary td:nth-child(2),
+	.table-primary td:nth-child(3) {
+		display: none;
+	}
+}

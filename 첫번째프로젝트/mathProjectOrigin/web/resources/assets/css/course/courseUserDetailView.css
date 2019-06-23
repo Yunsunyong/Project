@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.table tr > th {
+	text-align: center;
+	width: 20%;
+	color: #8c8c8c;
+	font-weight: normal;
+}
+
+.table tr > td {
+	width: 80%;
+	text-align: left;
+}
+
+.table tr > td > a {
+	overflow: hidden;
+	word-break: break-all;
+}
+
+@media (max-width: 576px) {
+	.table tr > th {
+		width: 30%;
+	}
+
+	.table tr > td {
+		width: 70%;
+	}
+}

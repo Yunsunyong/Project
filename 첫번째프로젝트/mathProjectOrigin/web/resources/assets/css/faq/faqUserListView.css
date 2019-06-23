@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+p.log-in {
+	font-size: 2rem;
+}
+
+.card div.card-header {
+	height: 50px;
+}
+
+.card div.card-header button.btn {
+	float: left; 
+	padding: 0px; 
+	margin: -15px 0 0 0;
+}
+
+.card-body {
+	float: left;
+}
+
+.card-body > h5 {
+	padding-top: 5px;
+}
+
+.card {
+	padding-bottom: 10px;
+}
+
+.container > p {
+	padding: 30px 0;
+	color: #5c5c5c;
+	text-align: center;
+}
+
+.section {
+	padding: 0 0 30px 0 !important;
+}

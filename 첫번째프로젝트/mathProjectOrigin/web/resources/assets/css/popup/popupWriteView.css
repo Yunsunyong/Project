@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.table > tbody > tr > th {
+	text-align: center;
+	width: 20%;
+}
+
+.table > tbody > tr > td {
+	width: 80%;
+}
+
+tr label {
+	color: #333;
+	font-weight: bold;
+	margin: 0 20px;
+}
+
+.wave-dashh {
+	margin-left: 20px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+td.link-date {
+	overflow: hidden;
+}
+
+.sd-wrap, .ed-wrap, .wave-dashh {
+	float: left;
+}
+
+input[type="date"] {
+	display: inline-block;
+  width: 150px;
+}
+
+@media (max-width: 576px) {
+	.table > tbody > tr > th {
+		width: 30%;
+	}
+
+	.table > tbody > tr > td {
+		width: 70%;
+	}
+}

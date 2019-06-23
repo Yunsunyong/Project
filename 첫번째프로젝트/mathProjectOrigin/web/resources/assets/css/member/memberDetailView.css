@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+p.log-in {
+	font-size: 2rem;
+}
+
+td {
+	text-align: left;
+	vertical-align: middle;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding-left: 5px;
+}
+
+tr > th:nth-child(1) {
+	color: #8C8C8C;
+	font-weight: normal;
+	vertical-align: middle;
+}

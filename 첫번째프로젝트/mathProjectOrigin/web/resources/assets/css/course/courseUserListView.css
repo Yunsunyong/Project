@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+p.log-in {
+	font-size: 2rem;
+}
+
+.table tr {
+	text-align: center;
+}
+
+.tablebody td:nth-child(2) {
+	text-align: left;
+}
+
+@media (max-width: 576px) {
+	.tablebody td:nth-child(2),
+	.table-success th:nth-child(2) {
+		width: 50%;
+	}
+	
+	.tablebody td:nth-child(3),
+	.table-success th:nth-child(3) {
+		width: 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	.tablebody td:nth-child(1),
+	.table-success th:nth-child(1) {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.tablebody td:nth-child(1),
+	.table-success th:nth-child(1) {
+		width: 10%;
+	}
+	
+	.tablebody td:nth-child(2),
+	.table-success th:nth-child(2) {
+		width: 70%;
+	}
+	
+	.tablebody td:nth-child(3),
+	.table-success th:nth-child(3) {
+		width: 20%;
+	}
+	}
+	
+}
+
+@media (max-width: 992px) {
+	.tablebody td {
+		font-size: 0.9rem;
+	}
+}

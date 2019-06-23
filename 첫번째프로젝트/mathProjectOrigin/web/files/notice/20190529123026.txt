@@ -1,0 +1,19 @@
+Spring 특징
+1. DI (Dependancy Injection / 의존성 주입)
+
+2. Spring AOP (Aspect Oriented Programming / 관점 지향 프로그래밍)
+기능을 핵심 비지니스 기능과 공통기능으로 구분하고, 공통 기능을 개발자의 코드 밖에서 필요한 시점
+3. Spring JDBC
+
+4. Spring MVC
+
+
+DELETE FROM TB_QNA 
+				WHERE QNA_NO IN ( 
+				SELECT QNA_NO
+				FROM 
+				(SELECT Q.QNA_NO 
+				FROM TB_QNA Q
+				WHERE Q.PARENT_NO IN (SELECT Q2.PARENT_NO
+				                        FROM TB_QNA Q2
+				                        WHERE Q2.QNA_NO = 6)) QQ);

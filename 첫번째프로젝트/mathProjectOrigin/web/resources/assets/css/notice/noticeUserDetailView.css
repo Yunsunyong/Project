@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.table tr th {
+	width: 20%;
+	color: #8C8C8C;
+	font-weight: normal;
+}
+
+.table tr td {
+	width: 80%;
+	text-align: left;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.buttonz {
+	text-align: center !important;
+}
+
+
+@media (max-width: 576px) {
+	.table > tbody > tr > th {
+		width: 40%;
+	}
+
+	.table > tbody > tr > td {
+		width: 60%;
+	}
+}

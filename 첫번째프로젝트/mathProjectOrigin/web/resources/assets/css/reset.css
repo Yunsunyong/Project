@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:800|Noto+Sans+KR|Material+Icons');
+
+body, div, span, a, h1, h2, h3, h4, h5, h6, table, thead, tbody, tfoot, tr, td, th, ul, li, select, option, button, i, input, form, img, p, nav, footer, ol,textarea {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+
+body {
+	font-family: 'Noto Sans KR', 'dotum';
+}
+
+@font-face {
+ font-family: 'Material Icons';
+ font-style: normal;
+ font-weight: 400;
+ src: url(path/to/MaterialIcons-Regular.eot); /* For IE6-8 */
+ src: local('Material Icons'),
+     local('MaterialIcons-Regular'),
+     url(path/to/MaterialIcons-Regular.woff2) format('woff2'),
+     url(path/to/MaterialIcons-Regular.woff) format('woff'),
+     url(path/to/MaterialIcons-Regular.ttf) format('truetype');
+ }
+
+img {
+	border: none;
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+}

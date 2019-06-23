@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+.table > tbody > tr > td:nth-child(1) {
+	text-align: center;
+	width: 20%;
+	color: #8c8c8c;
+	font-weight: normal;
+}
+
+.table > tbody > tr > td:nth-child(2) {
+	width: 80%;
+	text-align: left;
+}
+
+.table tr > td  {
+	overflow: hidden;
+	word-break: break-all;
+}
+
+@media (max-width: 576px) {
+	.table > tbody > tr > td:nth-child(1) {
+		width: 30%;
+	}
+
+	.table > tbody > tr > td:nth-child(2) {
+		width: 70%;
+	}
+}

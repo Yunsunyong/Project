@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+select {
+	width: 200px;
+	/* 원하는 너비설정 */
+	padding: .8em .5em;
+	/* 여백으로 높이 설정 */
+	font-family: inherit;
+	/* 폰트 상속 */
+	/* background: url('이미지 경로') no-repeat 95% 50%; */
+	/* 네이티브 화살표를 커스텀 화살표로 대체 */
+	border: 1px solid #999;
+	border-radius: 0px;
+	/* iOS 둥근모서리 제거 */
+	-webkit-appearance: none;
+	/* 네이티브 외형 감추기 */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+div.q {
+	float: left;
+	width: 20%;
+	padding: 15px 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+
+p.log-in {
+	font-size: 1rem;
+	color: #6e6e6e;
+}
+
+#qImg {
+	text-align: center;
+	padding: 20px 0;
+}
+
+label {
+	color: #333 !important;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.3); /* IE */
+  -moz-transform: scale(1.3); /* FF */
+  -webkit-transform: scale(1.3); /* Safari and Chrome */
+  -o-transform: scale(1.3); /* Opera */
+  padding: 5px;
+}

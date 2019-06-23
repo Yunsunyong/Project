@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+
+.table > tbody > tr > th {
+	text-align: center;
+	width: 20%;
+}
+
+.table > tbody > tr > td {
+	width: 80%;
+}
+
+.table tr > td > a {
+	overflow: hidden;
+	word-break: break-all;
+}
+
+@media (max-width: 576px) {
+	.table > tbody > tr > th {
+		width: 30%;
+	}
+
+	.table > tbody > tr > td {
+		width: 70%;
+	}
+	
+}

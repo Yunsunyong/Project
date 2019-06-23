@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+p.log-in {
+	font-size: 2rem;
+}
+
+.no-question {
+	color: #6e6e6e;
+}
+
+button.btn {
+ margin-top: 20px;
+}
